@@ -1,8 +1,8 @@
-###提纲
+### 提纲
 
 ------------------------
 
-###总结
+### 总结
 1、推荐在 React 中使用 JSX
 2、结构
     ReactDOM.render(
@@ -19,10 +19,10 @@
 
 
 
-####参考网址
+#### 参考网址
 [bebel网址](https://www.runoob.com/react/react-jsx.html)
 
-####React JSX 介绍
+#### React JSX 介绍
 ```
 React 使用 JSX 来替代常规的 JavaScript。
 
@@ -38,17 +38,17 @@ JSX 是在 JavaScript 内部实现的。
 要将 React 元素渲染到根 DOM 节点中，我们通过把它们都传递给 ReactDOM.render() 的方法来将其渲染到页面上：
 ```
 
-####React JSX 优点：
+#### React JSX 优点：
 >   - JSX 执行更快，因为它在编译为 JavaScript 代码后进行了优化。
 >   - 它是类型安全的，在编译过程中就能发现错误。
 >   - 使用 JSX 编写模板更加简单快速。
 
-####React JSX 注意：
+#### React JSX 注意：
 ```
 由于 JSX 就是 JavaScript，一些标识符像 class 和 for 不建议作为 XML 属性名。作为替代，React DOM 使用 className 和 htmlFor 来做对应的属性。
 ```
 
-####React JSX使用
+#### React JSX使用
 ```
 添加自定义属性需要使用 data- 前缀。
 ReactDOM.render(
@@ -62,7 +62,7 @@ ReactDOM.render(
 );
 ```
 
-####React JSX 独立文件
+#### React JSX 独立文件
 
     helloworld_react.js
 
@@ -78,7 +78,7 @@ ReactDOM.render(
         <script type="text/babel" src="helloworld_react.js"></script>
     </body>
 
-####React JSX JavaScript表达式
+#### React JSX JavaScript表达式
 ```
 1、我们可以在 JSX 中使用 JavaScript 表达式。表达式写在花括号 {} 中。
 ReactDOM.render(
@@ -99,7 +99,7 @@ ReactDOM.render(
 );
 ```
 
-####React JSX 样式
+#### React JSX 样式
 ```
 React 推荐使用内联样式。我们可以使用 camelCase 语法来设置内联样式. React 会在指定元素数字后自动添加 px 。
 var myStyle = {
@@ -112,7 +112,7 @@ ReactDOM.render(
 );
 ```
 
-####React JSX 注释
+#### React JSX 注释
 ```
 注释需要写在花括号中
 ReactDOM.render(
@@ -124,7 +124,7 @@ ReactDOM.render(
 );
 ```
 
-####React JSX 数组
+#### React JSX 数组
 ```
 JSX 允许在模板中插入数组，数组会自动展开所有成员
 var arr = [
